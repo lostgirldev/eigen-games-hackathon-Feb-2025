@@ -1,44 +1,50 @@
-## EigenGames Ranking
+## EigenGames Project Ranking
 
-| Rank | Project Name                     | General Architecture | Buggyness | Readme Implementation |
-|------|----------------------------------|-----------------------|------------|-----------------------|
-| 1    | https://github.com/nschaievitch/eigen-games-25 | Good                    | Low         | Partial                 |
-| 2    | https://github.com/EigenGames/EigenGamesComp | Good                    | Medium      | Partial                 |
-| 3    | https://github.com/hanpham32/eigengames | Good                    | Medium      | Partial                 |
-| 4    | https://github.com/sanjayamirthraj/eigengames | Good                    | Medium      | Partial                 |
-| 5    | https://github.com/ToxicPine/eigentensor-submission-eigengames | Good                    | Low         | Partial                 |
-| 6    | https://github.com/Oliverpt-1/Eigen-Games | Good                    | Medium      | Good                     |
-| 7    | https://github.com/seanghaeli/EigenMax | Good                    | Medium      | Good                     |
-| 8    | https://github.com/muthiman/Continuum | Good                    | Medium      | Partial                 |
-| 9    | https://github.com/Daigan1/eigencards | Fair                     | High        | Partial                 |
-| 10   | https://github.com/lbianlbian/fireavs | Fair                     | Low         | Partial                 |
-| 11   | https://github.com/wjorgensen/nader-AI | Good                    | Low         | Good                     |
-| 12   | https://github.com/Lindsey-cyber/NeuroStake | Fair                     | High        | Partial                 |
-| 13   | https://github.com/shreybirmiwal/unagi | Good                    | Medium      | Good                     |
-| 14   | https://github.com/CarlZielinski/kokoro-dollar-demo | Good                    | Low         | Good                     |
-| 15   | https://github.com/Carnegie-Mellon-Blockchain/SwapBook-EigenGames-2025 | Fair                     | Medium      | Partial                 |
-| 16   | https://github.com/np2446/HyperEdit | Fair                     | Medium      | Good                     |
-| 17   | https://github.com/Gnome101/simple-price-oracle-avs-example | Fair                     | Medium      | Partial                 |
-| 18   | https://github.com/orderbook-avs/readme | Poor                     | High        | Poor                     |
-| 19   | https://github.com/Amitten77/ETHDenver2025 | Fair                     | Medium      | Partial                 |
-| 20   | https://github.com/Momenta-Network/Momenta-AVS | Fair                     | Medium      | Partial                 |
-| 21   | https://github.com/akhilrajEth/Jarvis | Fair                     | Medium      | Partial                 |
-| 22   | https://github.com/Tgcohce/Vision | Fair                     | Low         | Partial                 |
-| 23   | https://github.com/luiz-lvj/denver-2025 | Fair                     | Medium      | Partial                 |
-| 24   | https://github.com/beongeist/aave-stable-pool | Fair                     | High        | Partial                 |
-| 25   | https://github.com/pysel/uniliquid-hook | Good                    | Low         | Partial                 |
-| 26   | https://github.com/ammadhh/Quok-Agent | Good                    | Low         | Good                     |
-| 27   | https://github.com/micahborg/verisure | Fair                     | Low         | Partial                 |
-| 28   | https://github.com/hannah0wang/chain-azon | Good                    | Medium      | Partial                 |
-| 29   | https://github.com/simranmerchant/testHook | Fair                     | Medium      | Partial                 |
-| 30   | https://github.com/Jun1on/autorestake | Good                    | Low         | Partial                 |
-| 31   | https://github.com/blockchainuci/rental-marketplace | Fair                     | Low         | Partial                 |
-| 32   | https://github.com/WilliamUW/facebuddy-web-app | Fair                     | Medium      | Partial                 |
-| 33   | https://github.com/Pravesh-mansharamani/EigenBets | Fair                     | Medium      | Partial                 |
-| 34   | https://github.com/lognorman20/sonder | Fair                     | Medium      | Partial                 |
-| 35   | https://github.com/asundar43/Aetheris-GovAI | Fair                     | High        | Partial                 |
-| 36   | https://github.com/simranmerchant/testHook | Fair                     | Medium      | Partial                 |
-| 37   | https://github.com/ammadhh/Quok-Agent | Fair                     | Low         | Partial                 |
-| 38   | https://github.com/dennohpeter/chama.p2p | Fair                     | Medium      | Partial                 |
+This ranking considers general architecture, buggyness, and README implementation.  Scores are subjective and based on the provided analysis.
 
-**Note:** This ranking is subjective and based on the provided reports.  The criteria (architecture, buggyness, and readme implementation) are interpreted and weighted based on my best judgment.  A different evaluator might produce a different ranking.
+| Rank | Project Name                                      | General Architecture | Buggyness | Readme Implementation | Notes                                                                                                                                      |
+|------|---------------------------------------------------|-----------------------|------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| 1    | https://github.com/nschaievitch/eigen-games-25     | Good                    | Low         | Partial                 | Relatively complete workflow, but lacks robust error handling and security measures.                                                         |
+| 2    | https://github.com/Oliverpt-1/Eigen-Games         | Good                    | Medium      | Good                     | Comprehensive system, but has several bugs and areas needing improvement (error handling, modularity).                                      |
+| 3    | https://github.com/seanghaeli/EigenMax             | Good                    | Medium      | Good                     | Good features, but incomplete (database, error handling, authentication). Basic EigenLayer integration.                                    |
+| 4    | https://github.com/shreybirmiwal/unagi             | Good                    | Medium      | Good                     | Good features, but missing parts (deepfake detection, TEE integration).  Includes a well-structured AVS implementation.                     |
+| 5    | https://github.com/CarlZielinski/kokoro-dollar-demo | Good                    | Low         | Good                     | Well-structured, but the StakedKokoroUSD contract isn't production-ready.  Solid testing.                                             |
+| 6    | https://github.com/ammadhh/Quok-Agent             | Good                    | Low         | Good                     | Comprehensive agent with various functionalities, but needs more robust error handling and configuration improvements.                             |
+| 7    | https://github.com/np2446/HyperEdit               | Fair                     | Medium      | Good                     | Comprehensive chatbot and video processing app, but some bugs (progress indicator, hardcoded paths) and missing tests.                             |
+| 8    | https://github.com/EigenGames/EigenGamesComp       | Good                    | Medium      | Partial                 | Basic structure, but incomplete (error handling, security, testing, missing features).                                                    |
+| 9    | https://github.com/hanpham32/eigengames           | Good                    | Medium      | Partial                 | Solid functionality, but error handling and security need improvement.                                                                      |
+| 10   | https://github.com/sanjayamirthraj/eigengames     | Good                    | Medium      | Partial                 | Reasonably complete, but has bugs (hardcoded IP, nil pointer in testing), and missing complete testing and detailed error handling.                 |
+| 11   | https://github.com/Tgcohce/Vision                 | Fair                     | Low         | Partial                 | Implements a drag-and-drop AVS builder, but lacks core AVS logic and robust error handling.                                                  |
+| 12   | https://github.com/hannah0wang/chain-azon         | Good                    | Medium      | Partial                 | Good frontend, but incomplete backend integration and missing core features (crypto payments, staking).                                     |
+| 13   | https://github.com/muthiman/Continuum             | Good                    | Medium      | Partial                 | Complete implementation but some functions are not implemented.                                                                                |
+| 14   | https://github.com/Daigan1/eigencards             | Fair                     | High        | Partial                 | Many bugs, incomplete integration, and lack of thorough testing.                                                                              |
+| 15   | https://github.com/lbianlbian/fireavs             | Fair                     | Low         | Partial                 | Basic implementation, but misses key features (P2P restaking, monitoring).                                                               |
+| 16   | https://github.com/connorbuchheit/HarvardEigenGames | Good                    | Low         | Partial                 | Good frontend, but partial backend implementation (mock data) and missing features (risk management, unstaking).                             |
+| 17   | https://github.com/Gnome101/simple-price-oracle-avs-example | Fair                     | Medium      | Partial                 | Simple example, but incomplete (setup, deployment, monitoring) and contains a critical bug in the decryption logic.                               |
+| 18   | https://github.com/Lindsey-cyber/NeuroStake       | Fair                     | High        | Partial                 | Many bugs and incomplete features.  Shows some EigenLayer integration attempt, but incomplete.                                               |
+| 19   | https://github.com/Carnegie-Mellon-Blockchain/SwapBook-EigenGames-2025 | Fair                     | Medium      | Partial                 | Core functionality implemented, but missing significant parts (validation, AVS integration, swap routing logic).                                |
+| 20   | https://github.com/Amitten77/ETHDenver2025         | Fair                     | Medium      | Partial                 | Basic implementation with several bugs, missing features (wallet connection, RISC0), and lacks comprehensive testing.                             |
+| 21   | https://github.com/Momenta-Network/Momenta-AVS     | Fair                     | Medium      | Partial                 | Basic framework, but significant missing pieces (consensus, challenge mechanism, rewards).  Has a hardcoded private key.                            |
+| 22   | https://github.com/akhilrajEth/Jarvis             | Fair                     | Medium      | Partial                 | Basic implementation, missing key features (ZkTLS, verifiable inference). Has a failing test.                                              |
+| 23   | https://github.com/luiz-lvj/denver-2025           | Fair                     | Medium      | Partial                 | Incomplete WAaaS example, lacks error handling and complete functionalities.  Shows EigenLayer attestation interaction attempt.                  |
+| 24   | https://github.com/beongeist/aave-stable-pool     | Fair                     | High        | Partial                 | Several critical bugs in the interest/reward calculations, and hardcoded addresses.                                                          |
+| 25   | https://github.com/pysel/uniliquid-hook           | Good                    | Low         | Partial                 | Well-structured, but lacks complete implementation (single-asset deposits, exact out swaps).  Test suite has a failing test.                    |
+| 26   | https://github.com/WilliamUW/facebuddy-web-app    | Fair                     | Medium      | Partial                 | Basic implementation, but missing features (DEX swaps, EigenLayer AVS), and some unimplemented logic in the uploadToIPFS function.                |
+| 27   | https://github.com/Pravesh-mansharamani/EigenBets | Fair                     | Medium      | Partial                 | Incomplete system.  Lacks full Othentic integration, robust validation, and complete frontend implementation.                                |
+| 28   | https://github.com/orderbook-avs/readme           | Poor                     | High        | Poor                     | Mostly missing; does not provide any code.                                                                                             |
+| 29   | https://github.com/Jun1on/autorestake             | Good                    | Low         | Partial                 | Mostly complete; basic smart contract interaction, but minimal backend and missing EigenLayer integration.                                   |
+| 30   | https://github.com/ToxicPine/eigentensor-submission-eigengames | Poor                     | Low         | Poor                     | Missing several key features described in the documentation, most notably around graph splitting codebase.                                                                                                                 |
+| 31   | https://github.com/blockchainuci/rental-marketplace | Fair                     | Low         | Partial                 | Reasonably complete application but lacks some robustness and security consideration.                                                     |
+| 32   | https://github.com/simranmerchant/testHook         | Fair                     | Medium      | Partial                 | Basic implementation, but several bugs (incorrect balance delta, IERC20 transfer error) and missing test cases.                                     |
+| 33   | https://github.com/vidurgupta01/openknowledge-2    | Fair                     | Medium      | Partial                 | Basic implementation, but misses significant components (Polygon validation, lock expiry handling).                                             |
+| 34   | https://github.com/lognorman20/sonder             | Fair                     | Medium      | Partial                 | Basic structure with missing backend logic, limited error handling, and incomplete EigenLayer integration.                                      |
+| 35   | https://github.com/dennohpeter/chama.p2p          | Fair                     | Medium      | Partial                 | Basic implementation with missing features (EigenLayer integration, multisig wallets, reputation).                                           |
+| 36   | https://github.com/ammadhh/eigenbird       | Fair                     | Medium      | Partial                 | Basic implementation with bugs and missing features.                                                                                       |
+| 37   | https://github.com/ammadhh/Quok-Agent            | Fair                     | Low         | Partial                 | Good structure, but has bugs. Needs more complete error handling, improved configuration, and additional tests.                                   |
+| 38   | https://github.com/asundar43/Aetheris-GovAI       | Fair                     | High        | Partial                 | Several significant bugs in Metamask connection handling and API calls.  Lacks crucial features.                                             |
+| 39   | https://github.com/micahborg/verisure             | Fair                     | Low         | Partial                 | Basic framework; lacks AI integration, and regulator features.                                                                               |
+| 40   | https://github.com/hrishabhayush/eigengames-perkhive | Poor                     | Low         | Poor                     | Empty codebase.                                                                                                                 |
+| 41   | https://github.com/Ljankovi2003/distribmarket   | Fair                     | Medium      | Partial                 | Basic contract implemented, but missing on-chain validation.                                                                               |
+| 42   | https://github.com/narasim-teja/IntelliFi       | Fair                     | Medium      | Partial                 | The RISC0 integration is minimal, and Tangle AVS is almost entirely unimplemented beyond contract definitions                     |
+
+
